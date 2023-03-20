@@ -14,8 +14,6 @@ const Nearbyjobs = () => {
     num_pages : 1
   })
 
-  console.log(data[0],"nearby")
-
   return (
     <View style={styles.container}>
       <View style={styles.header}>

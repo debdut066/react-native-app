@@ -13,9 +13,7 @@ const Popularjobs = () => {
     query : "React developer",
     num_pages : 1
   })
-
-  console.log(data[0],"popular")
-
+  
   const [selectedJob, setSelectedJob] = React.useState();
 
   const handleCardPress = (item) => {
