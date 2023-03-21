@@ -8,7 +8,6 @@ const Home = () => {
 	const router = useRouter();
 	const [searchTerm,setSearchTerm] = React.useState("")
 
-
 	return (
 		<SafeAreaView style={{ flex:1, backgroundColor : COLORS.lightWhite }}>
 			<Stack.Screen
